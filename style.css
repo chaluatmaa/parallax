@@ -64,13 +64,13 @@ div:nth-child(5)
     background-color: rgb(68, 65, 65);
 }
 
-/* .progress
+.progress
 {
     top: 0px;
     height: 4px;
     position: fixed;
     background-color: #008516;
-} */
+}
 
 @media screen and (max-width:420px)
 {
