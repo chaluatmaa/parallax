@@ -8,6 +8,10 @@ window.addEventListener('scroll',function(){
 const body = document.querySelector('body');
 const progress = document.querySelector('.progress');
 
+progress.style.height = '4px';
+progress.style.background = `linear-gradient(to right, red , orange , yellow , green , white)`;
+progress.style.position = 'fixed';
+
 window.addEventListener('scroll',()=>{
     let scrollValue = window.scrollY;
     let articleHeight = body.clientHeight-window.innerHeight;
