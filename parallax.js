@@ -11,7 +11,8 @@ const progress = document.querySelector('.progress');
 progress.style.height = '4px';
 progress.style.background = `linear-gradient(to right, red , orange , yellow , green , white)`;
 progress.style.position = 'fixed';
-
+progress.style.bottom = '0px';
+progress.style.left = '0px';
 window.addEventListener('scroll',()=>{
     let scrollValue = window.scrollY;
     let articleHeight = body.clientHeight-window.innerHeight;
